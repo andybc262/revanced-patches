@@ -54,7 +54,7 @@ class ThemePatch : ResourcePatch {
         var darkThemeBackgroundColor: String? by option(
             PatchOption.StringOption(
                 key = "darkThemeBackgroundColor",
-                default = "@android:color/black",
+                default = "#121212",
                 title = "Background color for the dark theme",
                 description = "The background color of the dark theme. Can be a hex color or a resource reference.",
             )
@@ -63,7 +63,7 @@ class ThemePatch : ResourcePatch {
         var lightThemeBackgroundColor: String? by option(
             PatchOption.StringOption(
                 key = "lightThemeBackgroundColor",
-                default = "@android:color/white",
+                default = "#c3bbec",
                 title = "Background color for the light theme",
                 description = "The background color of the light theme. Can be a hex color or a resource reference.",
             )
@@ -72,7 +72,7 @@ class ThemePatch : ResourcePatch {
         var darkThemeSeekbarColor: String? by option(
             PatchOption.StringOption(
                 key = "darkThemeSeekbarColor",
-                default = "#121212",
+                default = "#ffff0000",
                 title = "Dark theme seekbar color",
                 description = "The background color of the seekbar of the dark theme. Leave empty for default color.",
             )
