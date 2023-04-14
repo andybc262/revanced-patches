@@ -72,7 +72,7 @@ class ThemePatch : ResourcePatch {
         var darkThemeSeekbarColor: String? by option(
             PatchOption.StringOption(
                 key = "darkThemeSeekbarColor",
-                default = "#ffff0000",
+                default = "#121212",
                 title = "Dark theme seekbar color",
                 description = "The background color of the seekbar of the dark theme. Leave empty for default color.",
             )
